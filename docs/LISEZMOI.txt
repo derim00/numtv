@@ -1,0 +1,54 @@
+NUM TV : installateur pour NumWorks n0120 (Mac)
+===================================================
+
+1. Une seule fois, dans le Terminal (avec Homebrew, https://brew.sh) :
+
+       brew install libusb dfu-util
+
+   Les jeux déjà dans le dossier games/ sont prêts à installer.
+   Pour en ajouter d'autres (.nwa), il faut aussi :
+
+       brew install --cask gcc-arm-embedded
+
+2. Double-clique sur « Installer NUM TV.command ».
+   (La première fois, macOS peut le bloquer : clic droit > Ouvrir > Ouvrir.)
+   La page de l'installateur s'ouvre dans ton navigateur.
+
+3. Branche la calculatrice en USB et appuie sur Reset au dos :
+   elle redémarre sur le système officiel (slot A).
+
+4. Quand le voyant passe au vert, glisse tes jeux .nwa dans la page
+   si tu veux, puis clique sur « Installer NUM TV ».
+
+NUM TV s'installe dans le slot B : le système officiel (slot A) n'est
+jamais modifié. Après un Reset, la calculatrice revient sur le système
+officiel ; il suffit de relancer l'installation pour retrouver NUM TV.
+
+Les commandes de NUM TV
+-----------------------
+
+Haut / Bas ............. zapper (chaîne suivante / précédente)
+0 à 9 .................. taper un numéro de chaîne (1 à 9 : les émissions,
+                         10 et plus : les applis et les jeux)
+0 ...................... la chaîne précédente
++ / - .................. le volume (la télé est muette : c'est la luminosité)
+OK ..................... regarder (ouvre l'appli) / agir dans l'émission
+Retour ................. le programme télé
+Boîte à outils ......... le télétexte (touches, chaînes, audimat, réglages)
+Ans .................... zapping au hasard
+x,n,t .................. taper sur la télé (quand l'image déraille)
+Effacer ................ BOUTON PANIQUE : Calculs s'ouvre tout de suite
+
+Les chaînes
+-----------
+
+1 LE JT ............. tes calculs deviennent des infos (essaie 6×7, 0/0, 1+1)
+2 MÉTÉO DU LYCÉE .... < > : le jour de la semaine
+3 TÉLÉ-ACHAT ........ < > : les produits, OK : commander
+4 LA ROUE ........... < > : nombre d'élèves (ou la roue des gages), OK
+5 DÉTECTOR 3000 ..... garde OK appuyé. Secret : < avant = VÉRITÉ,
+                      > avant = MENSONGE (le point du sous-titre change)
+6 EXCUSOMATIC ....... OK : tirer le levier
+7 LE GRAND QUIZ ..... jokers : 1 (50/50), 2 (public), 3 (ami)
+8 FEU DE CHEMINÉE ... < > : bois, copies de maths, chimie, disco
+9 ÉCRAN DE VEILLE ... le logo rebondit. Un jour, il touchera le coin.
